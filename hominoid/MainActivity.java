@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         //Load data from url and parse it
         //volley request
         RequestQueue queue = Volley.newRequestQueue(this);
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, "http://hominoid.atwebpages.com/apis/",
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, "https://cewallpaper.herokuapp.com/apis/",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
